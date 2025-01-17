@@ -1,0 +1,62 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div1, .div2{
+    padding: 5%;
+}
+.parent input, textarea{
+    width: 100%;
+    border: none;
+    font-family: "yekan", "Segoe UI", serif;
+    font-size: large;
+    margin: 1% 0 1% 0;
+    padding: 1%;
+    border-radius: 5px;
+    background: #efefef;
+    transition-duration: 300ms;
+}
+.parent input:focus,textarea:focus{
+    outline: none;
+}
+.parent button{
+    border: none;
+    background: #7849ff;
+    color: white;
+    width: 100%;
+    font-size: larger;
+    padding: 1%;
+    border-radius: 100000000px;
+    transition-duration: 300ms;
+}
+@media (max-width: 800px) {
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .div1 { grid-area: 2 / 1 / 3 / 2; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+}
+.parent input:hover, textarea:hover, input:focus, textarea:focus{
+    background: #d7d7d7;
+}
+.parent button:hover{
+    background: #4627a6;
+}
+.form_msg{
+    padding: 1%;
+    color: white;
+    margin: 1%;
+    border-radius: 5px;
+}
