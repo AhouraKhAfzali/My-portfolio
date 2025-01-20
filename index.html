@@ -1,32 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 <head>
+    <!--main head options-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>اهورا خواجه افضلی</title>
+    <!--css links-->
+    <link href="css/Home.css" rel="stylesheet">
+    <link href="css/Nav_bar.css" rel="stylesheet">
+    <link href="css/Top_box.css" rel="stylesheet">
+    <link href="css/Main_info.css" rel="stylesheet">
     <link href="css/Home_Slider.css" rel="stylesheet" >
+    <link href="css/Documents.css" rel="stylesheet" >
     <link href="css/TimeLine.css" rel="stylesheet">
     <link href="css/Contact_Form.css" rel="stylesheet">
-    <link href="css/Home.css" rel="stylesheet">
-    <link href="css/Site_buildng.css" rel="stylesheet">
     <link href="css/Contact_links.css" rel="stylesheet">
-    <link href="css/Main_info.css" rel="stylesheet">
-    <link href="css/Header.css" rel="stylesheet">
-    <link href="css/Nav_bar.css" rel="stylesheet">
+    <!--js links-->
     <script src="js/Home_Slider.js" defer></script>
 </head>
+<!--main style codes-->
 <style>
     @font-face {
         font-family: "yekan";
         src: url("fonts/Yekan.ttf");
     }
+    @font-face {
+        font-family: "vazir_l";
+        src: url("fonts/Vazir-Light.ttf");
+    }
+    @font-face {
+        font-family: "vazir_m";
+        src: url("fonts/Vazir-Medium.ttf");
+    }
+    @font-face {
+        font-family: "vazir_b";
+        src: url("fonts/Vazir-Bold.ttf");
+    }
     body{
         background-image: url("assets/circle_overlay.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-    .card{
-        background-image: url("assets/grain_bg.jpg");
     }
     .timeline_box{
         background-image: url("assets/bg-pat.png");
@@ -39,34 +50,48 @@
         background-repeat: no-repeat;
         background-position-x: right;
     }
-    .site_building_box{
-        background-image: url("assets/bg-pat.png");
-    }
 </style>
+<!--body codes-->
 <body>
-    <nav class="Top_nav" dir="rtl">
-        <ul>
-            <li><a href="tel:123-456-7890">تماس با من</a></li>
-            <li><a href="">نمونه کار ها</a></li>
-            <li><a href="">سفارش طراحی سایت</a></li>
+<!--navbar-->
+<nav class="navbar" dir="rtl">
+    <div class="navbar-container">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">درباره من</a></li>
+            <li><a href="#about">سوابق تحصیلی</a></li>
+            <li><a href="#services">جوایز و مدارک</a></li>
+            <li><a href="#contact">نمونه کار ها</a></li>
         </ul>
-    </nav>
+    </div>
+</nav>
+<script>
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navLinks = document.getElementById('nav-links');
+    mobileMenu.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+
 <br>
+
 <div class="Top_box" dir="rtl">
+
     <div class="tbox1">
         <div class="t_text">
-            <p class="simple_text">
-                سلام
-            </p>
-            <p class="bold_text">
-                من اهورا خواجه افضلی هستم
-            </p>
-            <p class="simple_text">
-                تحصیل کرده رشته کامپیوتر و برنامه نویس فول استک در حوزه طراحی وب به مدت سه سال
-            </p>
-            <p class="simple_text">
+            <h1 class="bold_text">
+                اهورا خواجه افضلی
+            </h1>
+            <h3 class="simple_text">
+                برنامه نویس و توسعه دهنده بک اند
+            </h3>
+            <h4 class="simple_text">
                 با من در ارتباط باشید
-            </p>
+            </h4>
             <div class="card">
                 <a class="socialContainer containerOne" href="#">
                   <svg viewBox="0 0 16 16" class="socialSvg instagramSvg">
@@ -99,34 +124,32 @@
                     ></path>
                   </svg>
                 </a>
-              </div>       
-            <br>
+              </div>
         </div>
     </div>
     <div class="tbox2">
-        <img class="header_image" src="assets/image_myself_1.png">
+        <img class="header_image" src="assets/image_myself_1.png" alt="">
     </div>
+
 </div>
+
 <br>
+
 <div class="Main_info" dir="rtl">
     <div class="inf1">
-        <img src="assets/white_laptopw.jpg">
+        <img src="assets/white_laptopw.jpg" alt="">
     </div>
-    <div class="inf2">من اهورا خواجه افضلی هستم دانش‌آموز تحصیل کرده در حوزه برنامه نویسی و مسلط به زبان های پایتون، html، css و همچنین فریم ورک پرکاربرد جنگو جهت طراحی سایت. از سه سال پیش وارد حوزه برنامه نویسی شدم و در رشته کامپیوتر تحصیل کردم.
+    <h4 class="inf2">
+        توسعه دهنده بک اند و دارای تجربه در طراحی و توسعه RESTful API با استفاده از DRF.
         <br>
-        همچنین دو وب سایت فروشگاهی و گالری کامل را نیز طراحی و اجرا کرده ام.
-        بیایید کمی بیشتر با من آشنا شوید
-    </div>
+        دارای مهارت در معماری بک اند، مدیریت پایگاه داده و ارائه برنامه های کاربردی وب با کارایی بالا و
+        کار با زبان های برنامه نویسی متفاوت مانند Python و JavaScript و فریم ورک قدرتمند Django.
+
+    </h4>
 </div>
+
 <br>
-<div class="more_info">
-    پس از تحصیل در حوزه برنامه نویسی وب توانسته ام علاوه بر زبان پایتون و فریم ورک جنگو به کتاب‌خانه‌هایی نظیر ReportLab، Tkinter، Pillow، Math و ... تسلط پیدا کنم.
-</div>
-<br>
-<div class="wrapper" dir="rtl">
-    <p class="text_important">تجربه برنامه نویسی با زبان های زیر</p>
-</div>
-<br>
+
 <div class="wrapper">
     <i id="left" class="fa-solid  fas fa-angle-left">left</i>
     <ul class="carousel">
@@ -155,8 +178,23 @@
     </ul>
     <i id="right" class="fa-solid fas fa-angle-right">right</i>
 </div>
+
 <br>
-<div class="Im_texts">تایم لاین زمان</div>
+
+<div class="documents">
+    <div class="document">
+        <img src="documents/Ahoura_Khajeh_Afzali20241119-73-lxpq6v.jpg" alt="">
+    </div>
+    <div class="document">
+        <img src="documents/Ahoura_Khajeh_Afzali20241119-73-lxpq6v.jpg" alt="">
+    </div>
+    <div class="document">
+        <img src="documents/Ahoura_Khajeh_Afzali20241119-73-lxpq6v.jpg" alt="">
+    </div>
+</div>
+
+<br>
+
 <div class="timeline_box">
     <div class="timeline">
         <div class="container left">
@@ -197,9 +235,11 @@
         </div>
       </div>      
 </div>
+
 <br>
+
 <div class="contact_box">
-    <div class="Im_texts">پیام خود را با من به اشتراک بگذارید</div>
+    <div class="Important_texts">پیام خود را با من به اشتراک بگذارید</div>
     <br>
     <div class="parent" dir="rtl">
     <div class="div1">
@@ -218,11 +258,9 @@
         </div>
     </div>
 </div>
+
 <br>
-<div class="site_building_box">
-    <p>جهت سفارش طراحی سایت اینجا کلیک کنید</p>
-    <a href="">سفارش طراحی سایت</a>
-</div>
+
 <div class="footer" dir="rtl">
     <div class="foot1">
         <h2 style="color: white">با من در ارتباط باشید</h2>
@@ -268,5 +306,7 @@
           </div>
     </div>
 </div>
+
 </body>
+
 </html>
