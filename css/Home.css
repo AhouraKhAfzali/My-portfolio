@@ -1,37 +1,41 @@
+* {
+    font-family: "isans_medium", "Segoe UI", serif;
+}
 body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 0 10% 0 10%;
     font-size: large;
     background-color: whitesmoke;
     background-repeat: no-repeat;
     background-size: 100%;
-    font-family: "vazir_m", "Gill Sans MT", serif;
 }
 /*different types of texts*/
 h4{
-    font-family: "vazir_m", "Gill Sans MT", serif;
+    font-family: "isans_medium", "Gill Sans MT", serif;
     font-size: large;
     font-weight: normal;
 }
 h3{
-    font-family: "vazir_m", "Gill Sans MT", serif;
+    font-family: "isans_black", "Gill Sans MT", serif;
     font-size: x-large;
     font-weight: normal;
 }
 h2{
-    font-family: "vazir_b", "Gill Sans MT", serif;
+    font-family: "isans_black", "Gill Sans MT", serif;
     font-size: x-large;
     font-weight: normal;
 }
 h1{
-    font-family: "vazir_b", "Gill Sans MT", serif;
+    font-family: "isans_black", "Gill Sans MT", serif;
     font-size: xxx-large;
     font-weight: normal;
     color: #7849ff;
 }
-
+a{
+    font-family: "isans_medium", "Gill Sans MT", serif;
+}
 
 
 

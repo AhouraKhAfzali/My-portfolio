@@ -9,6 +9,7 @@
     <link href="css/Home.css" rel="stylesheet">
     <link href="css/Nav_bar.css" rel="stylesheet">
     <link href="css/Top_box.css" rel="stylesheet">
+    <link href="css/Progress_Bar.css" rel="stylesheet">
     <link href="css/Main_info.css" rel="stylesheet">
     <link href="css/Home_Slider.css" rel="stylesheet" >
     <link href="css/Documents.css" rel="stylesheet" >
@@ -36,6 +37,14 @@
         font-family: "vazir_b";
         src: url("fonts/Vazir-Bold.ttf");
     }
+    @font-face {
+        font-family: "isans_black";
+        src: url("fonts/Iran_sans/IRANSans_Black.ttf");
+    }
+    @font-face {
+        font-family: "isans_medium";
+        src: url("fonts/Iran_sans/IRANSans_Medium.ttf");
+    }
     body{
         background-image: url("assets/circle_overlay.png");
     }
@@ -52,7 +61,7 @@
     }
 </style>
 <!--body codes-->
-<body>
+<body dir="rtl">
 <!--navbar-->
 <nav class="navbar" dir="rtl">
     <div class="navbar-container">
@@ -134,18 +143,79 @@
 </div>
 
 <br>
+<h1>درباره من</h1>
 
 <div class="Main_info" dir="rtl">
     <div class="inf1">
-        <img src="assets/white_laptopw.jpg" alt="">
+        <img src="assets/simple%20minimal%20vector%20image%20expressing%20programming%20with%20a%20white%20background%20(1).png" alt="">
     </div>
-    <h4 class="inf2">
+    <div class="inf2">
+        <h2>اهورا خواجه افضلی</h2>
+        <br>
         توسعه دهنده بک اند و دارای تجربه در طراحی و توسعه RESTful API با استفاده از DRF.
         <br>
         دارای مهارت در معماری بک اند، مدیریت پایگاه داده و ارائه برنامه های کاربردی وب با کارایی بالا و
         کار با زبان های برنامه نویسی متفاوت مانند Python و JavaScript و فریم ورک قدرتمند Django.
+    </div>
+</div>
 
-    </h4>
+<br>
+<h1>مهارت های من</h1>
+<h2>برخی از مهارت های من در زمینه برنامه نویسی و بک اند</h2>
+
+<div class="progress-con">
+    <div class="p_box1">
+        <p class="progressText">Python</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 90%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">C#</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 65%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">PHP</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 55%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">HTML</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 87%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">CSS</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 75%; height: 8px;"></div>
+        </div>
+    </div>
+    <div class="p_box2">
+        <p class="progressText">Django</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 87%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">JavaScript</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 45%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">SQLite</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 75%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">RestAPI</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 80%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">DRF</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 80%; height: 8px;"></div>
+        </div>
+    </div>
 </div>
 
 <br>
@@ -191,49 +261,6 @@
     <div class="document">
         <img src="documents/Ahoura_Khajeh_Afzali20241119-73-lxpq6v.jpg" alt="">
     </div>
-</div>
-
-<br>
-
-<div class="timeline_box">
-    <div class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h2>1400</h2>
-            <p>شروع یادگیری برنامه نویسی با زبان پایتون و مشارکت در کلاس ها و دوره های متنوع جهت تقویت یاد گیری و افزایش درک ذهنی در مورد برنامه نویسی</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>1400</h2>
-            <p>پایان یادگیری زبان پایتون و مسلط شدن تمام و کمال به آن و سپس آغاز دوره های پیشرفته تر جهت یادگیری کتاب خانه های پر کابرد و تقویت برنامه نویسی بک اند</p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2>1401</h2>
-            <p>تکمیل کردن دوره های پیشرفته پایتون و رفتن به سمت فریم ورک های آن در حوزه فوق العاده برنامه نویسی وب و ساخت بک اند وب سایت با استفاده از فریم ورک جنگو به همراه پرکاربرد تربن پکیج ها و قابلیت های آن</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>1402</h2>
-            <p>آغاز کار در حوزه برنامه نویسی فرانت اند و کار با زبان های html جهت طراحی و ایجاد صفحات وب و زبان css جهت استایل دهی و دیزاین بهتر صفحات وب برای کاربران</p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2>1403</h2>
-            <p>تکمیل یادگیری فریم ورک جنگو و زبان های html و css و آغاز شروع به کار به عنوان یک برنامه نویس فول استک و شروع به طراحی اولین سایت های شخصی</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>1403</h2>
-            <p>تکمیل دو عدد وب سایت گالری و فروشگاهی کامل و جامع و راه‌اندازی اولین وب سایت برای رزومه شخصی به همراه یک وب سایت بیزینسی جهت شروع کسب و کار آنلاین و طراحی سایت برای شرکت ها و مشتریان ارزشمند</p>
-          </div>
-        </div>
-      </div>      
 </div>
 
 <br>
@@ -310,3 +337,58 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="timeline_box">-->
+<!--    <div class="timeline">-->
+<!--        <div class="container left">-->
+<!--          <div class="content">-->
+<!--            <h2>1400</h2>-->
+<!--            <p>شروع یادگیری برنامه نویسی با زبان پایتون و مشارکت در کلاس ها و دوره های متنوع جهت تقویت یاد گیری و افزایش درک ذهنی در مورد برنامه نویسی</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="container right">-->
+<!--          <div class="content">-->
+<!--            <h2>1400</h2>-->
+<!--            <p>پایان یادگیری زبان پایتون و مسلط شدن تمام و کمال به آن و سپس آغاز دوره های پیشرفته تر جهت یادگیری کتاب خانه های پر کابرد و تقویت برنامه نویسی بک اند</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="container left">-->
+<!--          <div class="content">-->
+<!--            <h2>1401</h2>-->
+<!--            <p>تکمیل کردن دوره های پیشرفته پایتون و رفتن به سمت فریم ورک های آن در حوزه فوق العاده برنامه نویسی وب و ساخت بک اند وب سایت با استفاده از فریم ورک جنگو به همراه پرکاربرد تربن پکیج ها و قابلیت های آن</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="container right">-->
+<!--          <div class="content">-->
+<!--            <h2>1402</h2>-->
+<!--            <p>آغاز کار در حوزه برنامه نویسی فرانت اند و کار با زبان های html جهت طراحی و ایجاد صفحات وب و زبان css جهت استایل دهی و دیزاین بهتر صفحات وب برای کاربران</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="container left">-->
+<!--          <div class="content">-->
+<!--            <h2>1403</h2>-->
+<!--            <p>تکمیل یادگیری فریم ورک جنگو و زبان های html و css و آغاز شروع به کار به عنوان یک برنامه نویس فول استک و شروع به طراحی اولین سایت های شخصی</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="container right">-->
+<!--          <div class="content">-->
+<!--            <h2>1403</h2>-->
+<!--            <p>تکمیل دو عدد وب سایت گالری و فروشگاهی کامل و جامع و راه‌اندازی اولین وب سایت برای رزومه شخصی به همراه یک وب سایت بیزینسی جهت شروع کسب و کار آنلاین و طراحی سایت برای شرکت ها و مشتریان ارزشمند</p>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>      -->
+<!--</div>-->
