@@ -1,0 +1,63 @@
+.container {
+    max-width: 100%;
+    margin: 2% 0 2% 0;
+    justify-items: center;
+}
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.certificate {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.certificate:hover {
+    transform: scale(1.05);
+}
+
+.certificate img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    margin: 20% 10% 0 10%;
+    display: block;
+    max-width: 80%;
+}
+
+#caption {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}

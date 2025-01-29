@@ -1,10 +1,10 @@
 .progress-con {
     max-width: 100%;
-    background: white;
+    /*background: white;*/
     padding: 5%;
     margin: 2% 0% 2% 0%;
-    border-radius: 60px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    /*box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);*/
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -28,28 +28,28 @@
 }
 
 .progressContainer {
-  width: 100%;
-  background-color: #cccccc;
-  border-radius: 5px;
-  overflow: hidden;
-  position: relative;
+    width: 100%;
+    background-color: #cccccc;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
 }
 
 .progressBar {
-  width: 68%;
-  height: 8px;
-  background-color: #7849ff;
+    width: 68%;
+    height: 8px;
+    background-color: #7849ff;
 
 }
 
 .percentage {
-  position: absolute;
-  right: 32%;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 4px;
-  color: white;
-  padding-right: 5px;
+    position: absolute;
+    right: 32%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 4px;
+    color: white;
+    padding-right: 5px;
 }
 
 .progressText{

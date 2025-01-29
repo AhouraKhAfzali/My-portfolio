@@ -1,0 +1,12 @@
+.experience-container{
+    width: 100%;
+    margin: 2% 0 2% 0;
+}
+.experience-item {
+    width: 100%;
+    background-color: #7849FFFF;
+    color: white;
+    border-radius: 20px;
+    padding: 5%;
+    margin-bottom: 5%;
+}

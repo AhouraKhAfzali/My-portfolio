@@ -5,12 +5,13 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 0 10% 0 10%;
-    font-size: large;
+    /*padding: 0 10% 0 10%;*/
+    font-size: medium;
     background-color: whitesmoke;
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 /*different types of texts*/
 h4{
     font-family: "isans_medium", "Gill Sans MT", serif;
@@ -36,7 +37,18 @@ h1{
 a{
     font-family: "isans_medium", "Gill Sans MT", serif;
 }
-
+hr{
+    margin: 1% 0 1% 0;
+}
+.box{
+    width: 100%;
+    padding: 0 10% 0 10%;
+}
+.white_box{
+    width: 100%;
+    padding: 5% 10% 2% 10%;
+    background-color: white;
+}
 
 
 

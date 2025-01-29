@@ -20,7 +20,7 @@
     margin: 1% 0 1% 0;
     padding: 1%;
     border-radius: 5px;
-    background: #efefef;
+    background: white;
     transition-duration: 300ms;
 }
 .parent input:focus,textarea:focus{
@@ -59,4 +59,14 @@
     color: white;
     margin: 1%;
     border-radius: 5px;
+}
+.contact_box ul{
+    list-style-type: none;
+}
+.contact_box a{
+    text-decoration: none;
+    color: #7849ff;
+}
+.contact_box h3{
+    color: #7849ff;
 }
