@@ -13,6 +13,7 @@
     <link href="css/Main_info.css" rel="stylesheet">
     <link href="css/Experiences.css" rel="stylesheet">
     <link href="css/Certificates.css" rel="stylesheet">
+    <link href="css/Projects.css" rel="stylesheet">
     <link href="css/Contact_Form.css" rel="stylesheet">
     <link href="css/Contact_links.css" rel="stylesheet">
     <link href="css/Footer.css" rel="stylesheet">
@@ -169,6 +170,11 @@
         <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
             <div class="progressBar" style="width: 75%; height: 8px;"></div>
         </div>
+        <br>
+        <p class="progressText">JavaScript</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 45%; height: 8px;"></div>
+        </div>
     </div>
     <div class="p_box2">
         <p class="progressText">Django</p>
@@ -176,14 +182,9 @@
             <div class="progressBar" style="width: 87%; height: 8px;"></div>
         </div>
         <br>
-        <p class="progressText">JavaScript</p>
+        <p class="progressText">DRF</p>
         <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
-            <div class="progressBar" style="width: 45%; height: 8px;"></div>
-        </div>
-        <br>
-        <p class="progressText">SQLite</p>
-        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
-            <div class="progressBar" style="width: 75%; height: 8px;"></div>
+            <div class="progressBar" style="width: 80%; height: 8px;"></div>
         </div>
         <br>
         <p class="progressText">RestAPI</p>
@@ -191,9 +192,19 @@
             <div class="progressBar" style="width: 80%; height: 8px;"></div>
         </div>
         <br>
-        <p class="progressText">DRF</p>
+        <p class="progressText">SQLite</p>
         <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
-            <div class="progressBar" style="width: 80%; height: 8px;"></div>
+            <div class="progressBar" style="width: 75%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">MySQL</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 70%; height: 8px;"></div>
+        </div>
+        <br>
+        <p class="progressText">PostgreSQL</p>
+        <div class="progressContainer" style="background-color: #cccccc; height: 8px;">
+            <div class="progressBar" style="width: 60%; height: 8px;"></div>
         </div>
     </div>
 </div>
@@ -240,33 +251,49 @@
     </div>
 </div>
 <br>
-<div class="contact_box" id="contact_me">
-    <br>
-    <div class="parent" dir="rtl">
-        <div class="div1">
-            <h3>ارتباط با من</h3>
-            <p>از طریق فرم روبرو میتوانید با من در ارتباط باشید.</p>
-            <p>پاسخ شما از طریق ایمیل برایتان ارسال خواهد شد.</p>
-            <ul>
-                <li>مشهد</li>
-                <li><a href="mailto:ahoura.kh.afzali@gmail.com">ahoura.kh.afzali@gmail.com</a></li>
-                <li><a href="tel:09366249158">09366249158</a></li>
-            </ul>
-        </div>
-        <div class="div2">
-            <form method="post" action="mailto:ahoura.kh.afzali@gmail.com">
-                <input name="name" type="text" placeholder="نام و نام خوانوادگی">
-                <br>
-                <input name="email" type="text" placeholder="آدرس ایمیل">
-                <br>
-                <textarea name="text" placeholder="پیام خود را وارد کنید"></textarea>
-                <br>
-                <button type="submit" name="btn" value="submit_contact">ارسال</button>
-            </form>
+<div class="projects_box">
+    <h1 id="projects">نمونه کارها</h1>
+    <hr>
+    <div class="project_container">
+        <div class="project_image"><img src="projects/knavgan.png" alt="کالا ناوگان ابریشم"></div>
+        <div class="project_description">
+            <h2>وب سایت شرکت حمل و نقل بین المللی کالا ناوگان ابریشم</h2>
+            <br>
+            <p>طراحی و تکمیل کامل فرانت اند و بک اند وب سایت چند زبانه شرکت حمل و نقل بین المللی کالا ناوگان ابریشم با استفاده از فریم ورک جنگو</p>
+            <br>
+            <p>تاریخ: 1404/4</p>
+            <p>لینک مرتبط: <a href="https://knavgan.com/"> knavgan.com </a></p>
         </div>
     </div>
 </div>
 <br>
+<!--<div class="contact_box" id="contact_me">-->
+<!--    <br>-->
+<!--    <div class="parent" dir="rtl">-->
+<!--        <div class="div1">-->
+<!--            <h3>ارتباط با من</h3>-->
+<!--            <p>از طریق فرم روبرو میتوانید با من در ارتباط باشید.</p>-->
+<!--            <p>پاسخ شما از طریق ایمیل برایتان ارسال خواهد شد.</p>-->
+<!--            <ul>-->
+<!--                <li>مشهد</li>-->
+<!--                <li><a href="mailto:ahoura.kh.afzali@gmail.com">ahoura.kh.afzali@gmail.com</a></li>-->
+<!--                <li><a href="tel:09366249158">09366249158</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="div2">-->
+<!--            <form method="post" action="mailto:ahoura.kh.afzali@gmail.com">-->
+<!--                <input name="name" type="text" placeholder="نام و نام خوانوادگی">-->
+<!--                <br>-->
+<!--                <input name="email" type="text" placeholder="آدرس ایمیل">-->
+<!--                <br>-->
+<!--                <textarea name="text" placeholder="پیام خود را وارد کنید"></textarea>-->
+<!--                <br>-->
+<!--                <button type="submit" name="btn" value="submit_contact">ارسال</button>-->
+<!--            </form>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<br>-->
 <footer>
     <div class="footer-container">
         <div class="footer-content">

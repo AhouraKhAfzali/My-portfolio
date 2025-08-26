@@ -1,0 +1,41 @@
+.projects_box {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+.project_container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    margin: 2% 0 2% 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+.project_container a{
+    text-decoration: none;
+    color: #7849ff;
+}
+.project_container h2{
+    color: #7849ff;
+}
+.project_image {
+    grid-area: 1 / 1 / 2 / 2;
+    padding: clamp(40px, 5%, 150px);
+}
+.project_image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.project_description {
+    grid-area: 1 / 2 / 2 / 3;
+    padding: clamp(40px, 5%, 150px);
+}
+@media (max-width: 1200px) {
+    .project_container {
+        display: block;
+    }
+}
