@@ -6,7 +6,7 @@
 
     modal.style.display = "block";
     modalImg.src = imageSrc;
-    captionText.innerHTML = imageSrc.split('/').pop(); // Display the image file name
+    // captionText.innerHTML = imageSrc.split('/').pop(); // Display the image file name
 }
 
 function closeModal() {

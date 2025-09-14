@@ -22,6 +22,19 @@
 .tbox2 {
     grid-area: 1 / 2 / 2 / 3;
 }
+.resume_link {
+    background-color: #7849ff;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: fit-content;
+    transition-duration: 300ms;
+}
+.resume_link:hover {
+    background-color: #a889ff;
+}
 
 /*responsive codes*/
 @media (max-width: 800px) {
